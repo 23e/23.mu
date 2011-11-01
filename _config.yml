@@ -1,0 +1,6 @@
+auto: false
+destination: /srv/http/nginx/proto23
+permalink: /:categories/:title
+exclude:
+- less
+- README

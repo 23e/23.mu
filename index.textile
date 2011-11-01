@@ -1,0 +1,19 @@
+---
+layout: landing
+title: The Musician 23
+---
+h1. News
+ <hr />
+
+{% for post in site.posts limit:3 %}
+
+<div class="display">
+
+h3. "{{post.title}}":{{post.url}}
+
+h5. {{post.subtitle}} ({{post.date | date_to_string}})
+
+{{ post.content | strip_html | truncatewords:30 }} "»Read More":{{post.url}}
+
+</div>
+{% endfor %}
