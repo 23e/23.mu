@@ -1,0 +1,25 @@
+---
+layout: flat
+title: Music and Media
+---
+
+h1. MUSIC
+
+ <hr />
+
+Most of my music can be found on my "Soundcloud":http:/soundcloud.com/23e.
+
+ <iframe width="100%" height="450" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F2116245&amp;auto_play=false&amp;show_artwork=true&amp;color=000000"></iframe>
+
+
+ <br />
+ <br />
+ <br />
+h1. OTHER MEDIA
+
+ <hr />
+
+My music has been used in:
+* "V Blast Commercial":http://www.youtube.com/watch?v=al1AvI2tHSo
+* Commercial for "Sphero":http://vimeo.com/31185943
+* A few episodes of "Machinima":http://www.youtube.com/watch?v=KzBj82pusME

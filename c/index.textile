@@ -1,0 +1,16 @@
+---
+layout: flat
+title: Contact 23
+---
+
+h1. Booking & Inquiries
+
+<hr />
+
+23 currently does not have a booking agent or manager, and all contacts are handled personally.  You can contact me "here":mailto:23@derpstep.com.
+
+h1. Promos
+
+<hr />
+
+2 plays many live shows, and loves to hear new music and artists. Send any promotional music "here":mailto:23promos@gmail.com.
