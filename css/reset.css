@@ -1,0 +1,26 @@
+/**
+ * main.less
+ *
+ * @Author Freeman 23
+ *
+ * CSS for 23.mu
+ */
+/* Links */
+a {
+  color: #575757;
+  text-decoration: none;
+}
+a:hover {
+  color: #7f7f7f;
+}
+/* Main rules for the site */
+html, body {
+  background: #000000;
+  font-family: "DejaVu Sans", "Bitstream Vera Sans", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: #7f7f7f;
+}
+html {
+  overflow-y: scroll;
+  margin-bottom: 8em;
+}

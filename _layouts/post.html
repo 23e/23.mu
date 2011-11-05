@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div id="post">
+    <div class="cborder">
+        <div class="container">
+            <div class="text-inside">
+                <h2> <a href="{{page.url}}">{{page.title}}</a></h2>
+
+                <h5>Published on ({{page.date | date_to_string}})</h5>
+
+                <div class="preview">
+                    {% if page.haspreview == 'true' %}
+                    {{page.preview}}
+                    {% endif %}
+                </div>
+
+                {{content}}
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                            $('.container').corner("round 10px").parent().css('padding', '5px').corner("round 15px");
+                            });</script>
+                        <hr />
+                        <div id="disqus_thread"></div>
+                        <script type="text/javascript">
+                            var disqus_shortname = '23e'; // required: replace example with your forum shortname
+
+                            /* * * DON'T EDIT BELOW THIS LINE * * */
+                            (function() {
+                             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                             dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                             })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+            </div>
+        </div>
+    </div>
+</div>
