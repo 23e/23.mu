@@ -90,27 +90,23 @@
             <div id="content">
                 {{content}}
             </div>
+                <div id="footer">
+                    <div class="cborder" style="float:bottom;">
+                        <div class="container">
+                            <div class="text-inside">
+                                <p>Copyleft <i>23 Music and Media</i>, made and hosted with 100% Free and Open Source Software. <a href="https://github.com/23e/23.mu">Source Code available here</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
         </div>
-        <!-- Piwik -->
         <script type="text/javascript">
-            var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.23.mu/" : "http://piwik.23.mu/");
-            document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-            </script><script type="text/javascript">
-            try {
-                var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-                piwikTracker.trackPageView();
-                piwikTracker.enableLinkTracking();
-            } catch( err ) {}
-</script><noscript><p><img src="http://piwik.23.mu/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tracking Code -->
-
-<!-- Heatmapping code -->
-<script type="text/javascript" src="http://clickheat.23.mu/js/clickheat.js"></script><script type="text/javascript"><!--
-    clickHeatSite = '23.mu';clickHeatGroup = '23mu';clickHeatServer = 'http://clickheat.23.mu/click.php';initClickHeat(); //-->
-    </script>
-    <!-- End Heatmapping code -->
-</div>
-        </div>
-    </body>
-    <!-- Whatchu lookin' at? -->
-</html>
+            $(document).ready(function () {
+                    $('.container').corner("round 10px").parent().css('padding', '5px').corner("round 15px");
+                    $('#rss').rssfeed('http://pipes.yahoo.com/pipes/pipe.run?_id=c1892e23048e246a592b5f60ff8c878b&_render=rss', {
+limit: 5, header: false
+});
+                    });
+                </script>
+                <!-- Whatchu lookin' at? -->
+            </html>

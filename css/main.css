@@ -107,7 +107,7 @@ html {
 }
 .main #content { padding-top: 100px; }
 .main #content #left {
-  width: 66%;
+  width: 65%;
   float: left;
 }
 .main #content #right {
@@ -137,6 +137,8 @@ html {
 }
 .rssBody a { font-size: 1.2em; }
 .cborder {
+  display: inline-block;
+  width: 100%;
   background-color: #151515;
   margin-bottom: 10px;
 }
@@ -156,13 +158,16 @@ html {
   text-align: center;
   font-weight: lighter;
   font-size: 2.5em;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
 }
 .container .text-inside h2 {
   font-size: 2.2em;
   margin-bottom: 5px;
 }
-.container .text-inside h3 { margin-bottom: 10px; }
+.container .text-inside h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .container .text-inside h5 { margin-bottom: 15px; }
 .container .text-inside a { font-weight: lighter; }
 .container .text-inside p { margin-bottom: 10px; }
@@ -200,3 +205,8 @@ html {
   list-style-type: none;
 }
 .m ul { margin-left: 3em; }
+#footer {
+  float: bottom;
+  height: 100px;
+  text-align: center;
+}

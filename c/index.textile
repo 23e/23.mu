@@ -3,13 +3,15 @@ layout: flat
 title: Contact 23
 ---
 
-h1. Booking & Inquiries
+h1. BOOKING & INQUIRIES
 
 <hr />
 
 23 currently does not have a booking agent or manager, and all contacts are handled personally.  You can contact me "here":mailto:23@derpstep.com.
 
-h1. Promos
+<br />
+
+h1. PROMOS 
 
 <hr />
 

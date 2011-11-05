@@ -2,18 +2,26 @@
 layout: landing
 title: The Musician 23
 ---
-h1. News
+h1. NEWS
+
+{% for post in site.posts limit:5 %}
+
  <hr />
 
-{% for post in site.posts limit:3 %}
+<div class="blogpost">
+h2. "{{post.title}}":{{post.url}}
 
-<div class="display">
+h5. ({{post.date | date_to_string}})
+ 
+ <div class="preview">
+{% if post.haspreview == 'true' %}
+ {{post.preview}}
+{% endif %}
+ </div>
 
-h3. "{{post.title}}":{{post.url}}
+{{ post.content | strip_html | truncatewords:30 }} 
 
-h5. {{post.subtitle}} ({{post.date | date_to_string}})
-
-{{ post.content | strip_html | truncatewords:30 }} "»Read More":{{post.url}}
+"»Read More":{{post.url}}
 
 </div>
 {% endfor %}
